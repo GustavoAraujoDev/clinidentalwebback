@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node serverdentista.js\" \"node serverclinic.js\" \"node serverdespesa.js\" \"node serverfuncionario.js\" \"node serverlogin.js\"",
+    "start": "concurrently \"node server.js\" \"node serverlogin.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
